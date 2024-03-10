@@ -1,0 +1,35 @@
+.table {
+  border: 1px solid #716561;
+  margin-bottom: 5px;
+  border-collapse: collapse;
+
+  & th {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    border-top: 1px solid #716561;
+  }
+
+  & td {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444441;
+    border-top: 1px solid #716561;
+  }
+
+  & .tr:hover {
+    background-color: #d6eeee;
+  }
+
+  .title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    background: rgb(166, 9, 228);
+  }
+}

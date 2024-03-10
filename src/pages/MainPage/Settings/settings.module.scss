@@ -1,0 +1,38 @@
+.settings {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  .list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+
+  &__fields,
+  &__search {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .categories {
+    display: flex;
+    gap: 10px;
+
+    &__item {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+
+      input {
+        margin: 0;
+      }
+    }
+  }
+}
